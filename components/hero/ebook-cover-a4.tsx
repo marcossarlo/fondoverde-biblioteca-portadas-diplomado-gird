@@ -19,7 +19,7 @@ export function EbookCoverA4() {
           width={1650}
           height={400}
           priority
-          className="h-12 w-auto self-start"
+          className="h-16 w-auto self-center"
         />
 
         <div className="mt-10 flex flex-col gap-5">

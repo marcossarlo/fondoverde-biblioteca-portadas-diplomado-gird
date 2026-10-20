@@ -23,7 +23,7 @@ export function EbookCoverLargeV2() {
             alt="Fondo Verde"
             width={1650}
             height={400}
-            className="h-8 w-auto self-start sm:h-11 lg:h-12"
+            className="h-10 w-auto self-center sm:h-14 lg:h-16"
           />
 
           <div className="mt-6 flex flex-col gap-3 sm:mt-10 sm:gap-5">
