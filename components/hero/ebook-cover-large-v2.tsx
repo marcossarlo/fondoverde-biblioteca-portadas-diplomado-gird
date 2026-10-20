@@ -28,6 +28,7 @@ export function EbookCoverLargeV2() {
 
           <div className="mt-6 flex flex-col gap-3 sm:mt-10 sm:gap-5">
             <p className="flex flex-wrap items-center gap-x-2 text-[0.65rem] leading-snug font-medium tracking-[0.08em] uppercase sm:text-[0.8rem] sm:tracking-[0.1em] lg:flex-nowrap lg:whitespace-nowrap">
+              <span aria-hidden="true" className="mr-1 h-px w-6 shrink-0 bg-primary-foreground sm:mr-2 sm:w-8" />
               <span className="font-bold">Curso 1</span>
               <span aria-hidden="true">·</span>
               <span>Análisis transversal de los componentes del riesgo</span>

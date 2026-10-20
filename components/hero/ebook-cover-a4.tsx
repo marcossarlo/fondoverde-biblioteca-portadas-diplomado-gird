@@ -24,6 +24,7 @@ export function EbookCoverA4() {
 
         <div className="mt-10 flex flex-col gap-5">
           <p className="flex items-center gap-x-2 text-[0.8rem] leading-snug font-medium tracking-[0.1em] whitespace-nowrap uppercase">
+            <span aria-hidden="true" className="mr-2 h-px w-8 shrink-0 bg-primary-foreground" />
             <span className="font-bold">Curso 1</span>
             <span aria-hidden="true">·</span>
             <span>Análisis transversal de los componentes del riesgo</span>
