@@ -1,10 +1,10 @@
 import { CoverShowcase } from '@/components/hero/cover-showcase'
-import { HeroSection } from '@/components/hero/hero-section'
+import { DiplomadoHero } from '@/components/hero/diplomado-hero'
 
 export default function Page() {
   return (
     <main>
-      <HeroSection />
+      <DiplomadoHero />
       <CoverShowcase />
     </main>
   )

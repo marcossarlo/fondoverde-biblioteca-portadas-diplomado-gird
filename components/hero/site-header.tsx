@@ -12,7 +12,7 @@ export function SiteHeader() {
         className="h-8 w-auto md:h-10"
       />
       <p className="hidden text-xs font-medium tracking-[0.2em] text-muted-foreground uppercase sm:block">
-        eBook · Material del curso
+        Diplomado · Material del curso
       </p>
     </header>
   )
