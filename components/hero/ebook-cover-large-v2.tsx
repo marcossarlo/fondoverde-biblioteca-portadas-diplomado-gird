@@ -4,7 +4,7 @@ export function EbookCoverLargeV2() {
   return (
     <figure
       aria-label="Portada: Curso 1, Análisis transversal de los componentes del riesgo. Módulo 1, Introducción a la Gestión Integral del Riesgo de Desastres y conceptos clave"
-      className="relative mx-auto aspect-[3/4] w-full max-w-[22rem] sm:max-w-[34rem] lg:max-w-[40rem]"
+      className="relative mx-auto aspect-[210/297] w-full max-w-[22rem] sm:max-w-[34rem] lg:max-w-[49.625rem]"
     >
       <div
         aria-hidden="true"
@@ -55,7 +55,7 @@ export function EbookCoverLargeV2() {
           </div>
 
           <div className="mt-5 flex items-center justify-between gap-4 border-t border-primary-foreground/30 pt-4 sm:mt-7 sm:pt-5">
-            <span className="inline-flex items-center rounded-full bg-foreground px-4 py-1.5 text-xs font-bold tracking-[0.14em] text-primary-foreground uppercase shadow-md sm:px-6 sm:py-2 sm:text-base">
+            <span className="inline-flex items-center rounded-full bg-background px-4 py-1.5 text-xs font-bold tracking-[0.14em] text-foreground uppercase shadow-md sm:px-6 sm:py-2 sm:text-base">
               Módulo 1
             </span>
             <div className="flex flex-col gap-0.5 text-right">
