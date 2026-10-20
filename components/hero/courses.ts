@@ -6,6 +6,7 @@ import { EbookCoverCModulo4 } from './ebook-cover-c-modulo-4'
 import { EbookCoverC2Modulo1 } from './ebook-cover-c2-modulo-1'
 import { EbookCoverC2Modulo2 } from './ebook-cover-c2-modulo-2'
 import { EbookCoverC2Modulo3 } from './ebook-cover-c2-modulo-3'
+import { EbookCoverC2Modulo4 } from './ebook-cover-c2-modulo-4'
 
 export interface CourseModule {
   number: number
@@ -75,6 +76,12 @@ export const courses: Course[] = [
         title: 'Instrumentos de gestión territorial y gobernanza del riesgo',
         href: '/portada-curso-2-modulo-3',
         Cover: EbookCoverC2Modulo3,
+      },
+      {
+        number: 4,
+        title: 'Políticas públicas e incidencia en la Gestión Integral del Riesgo de Desastres',
+        href: '/portada-curso-2-modulo-4',
+        Cover: EbookCoverC2Modulo4,
       },
     ],
   },
