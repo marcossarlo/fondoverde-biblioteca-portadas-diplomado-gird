@@ -42,7 +42,7 @@ export function EbookCoverC({ priority = false, className = '' }: EbookCoverCPro
           className="h-[8cqw] w-auto self-center"
         />
 
-        <div className="mt-[6cqw] flex flex-col gap-[2.6cqw]">
+        <div className="mt-[6cqw] flex flex-col gap-[5cqw]">
           <p className="flex items-center justify-end gap-[1.4cqw] text-[1.45cqw] leading-none font-medium tracking-[0.14em] whitespace-nowrap text-accent uppercase">
             <span className="font-bold">Curso 1</span>
             <span aria-hidden="true">·</span>
@@ -51,7 +51,7 @@ export function EbookCoverC({ priority = false, className = '' }: EbookCoverCPro
           </p>
 
           <div className="flex items-stretch gap-[2.6cqw]">
-            <span className="shrink-0 rotate-180 text-[2.2cqw] leading-none font-bold tracking-[0.18em] whitespace-nowrap text-primary uppercase [writing-mode:vertical-rl]">
+            <span className="shrink-0 rotate-180 self-center text-[2.2cqw] leading-none font-bold tracking-[0.18em] whitespace-nowrap text-foreground uppercase [writing-mode:vertical-rl]">
               Módulo 1
             </span>
             <span aria-hidden="true" className="w-[0.28cqw] shrink-0 bg-primary" />
