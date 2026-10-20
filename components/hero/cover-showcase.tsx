@@ -42,7 +42,7 @@ export function CoverShowcase() {
                     {course.label}
                   </span>
                   <span className="text-xs font-medium text-muted-foreground">
-                    {count > 0 ? `${count} portadas` : 'Próximamente'}
+                    {count > 0 ? `${count} ${count === 1 ? 'portada' : 'portadas'}` : 'Próximamente'}
                   </span>
                 </span>
                 <span className="font-serif text-lg leading-snug font-medium text-pretty text-foreground">

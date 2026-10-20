@@ -3,6 +3,7 @@ import { EbookCoverC } from './ebook-cover-c'
 import { EbookCoverCModulo2 } from './ebook-cover-c-modulo-2'
 import { EbookCoverCModulo3 } from './ebook-cover-c-modulo-3'
 import { EbookCoverCModulo4 } from './ebook-cover-c-modulo-4'
+import { EbookCoverC2Modulo1 } from './ebook-cover-c2-modulo-1'
 
 export interface CourseModule {
   number: number
@@ -54,7 +55,14 @@ export const courses: Course[] = [
     id: 'curso-2',
     label: 'Curso 2',
     title: 'La construcción social y las causas subyacentes del riesgo de desastres',
-    modules: [],
+    modules: [
+      {
+        number: 1,
+        title: 'Características socioeconómicas y Gestión Integral del Riesgo de Desastres',
+        href: '/portada-curso-2-modulo-1',
+        Cover: EbookCoverC2Modulo1,
+      },
+    ],
   },
   {
     id: 'curso-3',
