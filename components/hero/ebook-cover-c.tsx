@@ -57,7 +57,7 @@ export function EbookCoverC({ priority = false, className = '' }: EbookCoverCPro
           </h2>
         </div>
 
-        <div className="mt-[3.5cqw]">
+        <div className="mt-[3.5cqw] flex justify-end">
           <span className="inline-flex items-center rounded-full bg-primary px-[3cqw] py-[1cqw] text-[1.9cqw] font-bold tracking-[0.14em] whitespace-nowrap text-primary-foreground uppercase">
             Módulo 1
           </span>
