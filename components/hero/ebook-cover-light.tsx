@@ -37,19 +37,19 @@ export function EbookCoverLight({
         fill
         priority={priority}
         sizes="(min-width: 1024px) 50rem, 100vw"
-        className="-z-20 object-cover object-[60%_50%] opacity-[0.09]"
+        className="-z-20 object-cover object-[60%_50%] opacity-[0.34]"
       />
       <div
         aria-hidden="true"
-        className="absolute inset-0 -z-10 bg-gradient-to-r from-background via-background/85 to-background/30"
+        className="absolute inset-0 -z-10 bg-gradient-to-r from-background/85 via-background/45 to-transparent"
       />
       <div
         aria-hidden="true"
-        className="absolute inset-x-0 top-0 -z-10 h-[30cqw] bg-gradient-to-b from-background to-transparent"
+        className="absolute inset-x-0 top-0 -z-10 h-[24cqw] bg-gradient-to-b from-background/90 to-transparent"
       />
       <div
         aria-hidden="true"
-        className="absolute inset-x-0 bottom-0 -z-10 h-[40cqw] bg-gradient-to-t from-background to-transparent"
+        className="absolute inset-x-0 bottom-0 -z-10 h-[28cqw] bg-gradient-to-t from-background/80 to-transparent"
       />
 
       <div className="flex h-full flex-col px-[7cqw] pt-[6cqw] pb-[6cqw]">
