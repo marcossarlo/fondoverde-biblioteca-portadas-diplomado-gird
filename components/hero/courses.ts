@@ -4,6 +4,7 @@ import { EbookCoverCModulo2 } from './ebook-cover-c-modulo-2'
 import { EbookCoverCModulo3 } from './ebook-cover-c-modulo-3'
 import { EbookCoverCModulo4 } from './ebook-cover-c-modulo-4'
 import { EbookCoverC2Modulo1 } from './ebook-cover-c2-modulo-1'
+import { EbookCoverC2Modulo2 } from './ebook-cover-c2-modulo-2'
 
 export interface CourseModule {
   number: number
@@ -61,6 +62,12 @@ export const courses: Course[] = [
         title: 'Características socioeconómicas y Gestión Integral del Riesgo de Desastres',
         href: '/portada-curso-2-modulo-1',
         Cover: EbookCoverC2Modulo1,
+      },
+      {
+        number: 2,
+        title: 'Capacidades locales y Gestión Integral del Riesgo de Desastres',
+        href: '/portada-curso-2-modulo-2',
+        Cover: EbookCoverC2Modulo2,
       },
     ],
   },
