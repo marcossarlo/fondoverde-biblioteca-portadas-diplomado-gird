@@ -5,6 +5,7 @@ import { EbookCoverCModulo3 } from './ebook-cover-c-modulo-3'
 import { EbookCoverCModulo4 } from './ebook-cover-c-modulo-4'
 import { EbookCoverC2Modulo1 } from './ebook-cover-c2-modulo-1'
 import { EbookCoverC2Modulo2 } from './ebook-cover-c2-modulo-2'
+import { EbookCoverC2Modulo3 } from './ebook-cover-c2-modulo-3'
 
 export interface CourseModule {
   number: number
@@ -68,6 +69,12 @@ export const courses: Course[] = [
         title: 'Capacidades locales y Gestión Integral del Riesgo de Desastres',
         href: '/portada-curso-2-modulo-2',
         Cover: EbookCoverC2Modulo2,
+      },
+      {
+        number: 3,
+        title: 'Instrumentos de gestión territorial y gobernanza del riesgo',
+        href: '/portada-curso-2-modulo-3',
+        Cover: EbookCoverC2Modulo3,
       },
     ],
   },
