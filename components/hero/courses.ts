@@ -7,6 +7,10 @@ import { EbookCoverC2Modulo1 } from './ebook-cover-c2-modulo-1'
 import { EbookCoverC2Modulo2 } from './ebook-cover-c2-modulo-2'
 import { EbookCoverC2Modulo3 } from './ebook-cover-c2-modulo-3'
 import { EbookCoverC2Modulo4 } from './ebook-cover-c2-modulo-4'
+import { EbookCoverC3Modulo1 } from './ebook-cover-c3-modulo-1'
+import { EbookCoverC3Modulo2 } from './ebook-cover-c3-modulo-2'
+import { EbookCoverC3Modulo3 } from './ebook-cover-c3-modulo-3'
+import { EbookCoverC3Modulo4 } from './ebook-cover-c3-modulo-4'
 
 export interface CourseModule {
   number: number
@@ -89,6 +93,31 @@ export const courses: Course[] = [
     id: 'curso-3',
     label: 'Curso 3',
     title: 'Acciones operativas: prevención, mitigación y adaptación',
-    modules: [],
+    modules: [
+      {
+        number: 1,
+        title: 'Medidas de prevención y ordenamiento territorial',
+        href: '/portada-curso-3-modulo-1',
+        Cover: EbookCoverC3Modulo1,
+      },
+      {
+        number: 2,
+        title: 'Mitigación estructural e ingeniería',
+        href: '/portada-curso-3-modulo-2',
+        Cover: EbookCoverC3Modulo2,
+      },
+      {
+        number: 3,
+        title: 'Mitigación no estructural: sistemas de alerta temprana',
+        href: '/portada-curso-3-modulo-3',
+        Cover: EbookCoverC3Modulo3,
+      },
+      {
+        number: 4,
+        title: 'Adaptación climática y soluciones basadas en la naturaleza',
+        href: '/portada-curso-3-modulo-4',
+        Cover: EbookCoverC3Modulo4,
+      },
+    ],
   },
 ]
