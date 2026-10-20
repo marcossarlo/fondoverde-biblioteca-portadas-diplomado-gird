@@ -32,7 +32,7 @@ export function EbookCoverC({ priority = false, className = '' }: EbookCoverCPro
         className="absolute inset-x-0 bottom-0 -z-10 h-[40cqw] bg-gradient-to-t from-background to-transparent"
       />
 
-      <div className="flex h-full flex-col px-[7cqw] pt-[6cqw] pb-[7cqw]">
+      <div className="flex h-full flex-col px-[7cqw] pt-[6cqw] pb-[6cqw]">
         <Image
           src="/images/fondo-verde-logo-oscuro.png"
           alt="Fondo Verde"
@@ -57,64 +57,27 @@ export function EbookCoverC({ priority = false, className = '' }: EbookCoverCPro
           </h2>
         </div>
 
-        <div className="mt-[4cqw] flex items-center gap-[3cqw] border-t border-foreground/15 pt-[3cqw]">
+        <div className="mt-[3.5cqw]">
           <span className="inline-flex items-center rounded-full bg-primary px-[3cqw] py-[1cqw] text-[1.9cqw] font-bold tracking-[0.14em] whitespace-nowrap text-primary-foreground uppercase">
             Módulo 1
           </span>
-          <span aria-hidden="true" className="h-[5cqw] w-px bg-foreground/20" />
-          <div className="flex flex-col gap-[0.5cqw]">
-            <span className="text-[1.1cqw] font-semibold tracking-[0.22em] text-muted-foreground uppercase">
-              Autor
-            </span>
-            <span className="text-[1.9cqw] font-semibold">Yandy Rodríguez Cueto, Dr.</span>
-          </div>
         </div>
 
-        <div className="relative mt-auto flex justify-center pt-[4cqw]">
-          <div className="relative w-[49cqw] -rotate-[2deg]">
-            <div
-              aria-hidden="true"
-              className="absolute inset-x-[4cqw] -bottom-[2.5cqw] h-[4cqw] rounded-[50%] bg-black/60 blur-[2cqw]"
-            />
+        <div className="relative mt-[3.5cqw] min-h-0 flex-1 overflow-hidden rounded-[1.4cqw] shadow-[0_3cqw_6cqw_-2cqw_rgba(0,0,0,0.7)] ring-1 ring-foreground/10">
+          <Image
+            src="/images/territorio-cuenca.png"
+            alt="Ilustración de una cuenca con río, montañas y comunidades rurales"
+            fill
+            sizes="(min-width: 1024px) 44rem, 100vw"
+            className="object-cover object-[40%_50%]"
+          />
+        </div>
 
-            <div className="relative flex aspect-[3/4] overflow-hidden rounded-r-[1.4cqw] rounded-l-[0.4cqw] bg-primary shadow-[0_3cqw_6cqw_-2cqw_rgba(0,0,0,0.7)]">
-              <div
-                aria-hidden="true"
-                className="w-[1.4cqw] shrink-0 bg-gradient-to-r from-black/35 via-black/10 to-transparent"
-              />
-
-              <div className="flex min-w-0 flex-1 flex-col p-[3cqw] pl-[2cqw] text-primary-foreground">
-                <Image
-                  src="/images/fondo-verde-logo-blanco.png"
-                  alt=""
-                  width={1650}
-                  height={400}
-                  className="h-[3cqw] w-auto self-start"
-                />
-
-                <div className="mt-[2.6cqw] flex flex-col gap-[1cqw]">
-                  <p className="text-[1.15cqw] font-bold tracking-[0.22em] uppercase">Módulo 1</p>
-                  <p className="font-serif text-[2.75cqw] leading-[1.12] font-medium text-balance">
-                    Introducción a la Gestión Integral del Riesgo de Desastres y conceptos clave
-                  </p>
-                </div>
-
-                <div className="relative mt-[2.4cqw] min-h-0 flex-1 overflow-hidden rounded-[0.8cqw]">
-                  <Image
-                    src="/images/territorio-cuenca.png"
-                    alt=""
-                    fill
-                    sizes="30rem"
-                    className="object-cover object-[40%_50%]"
-                  />
-                </div>
-
-                <p className="mt-[2cqw] text-[1.5cqw] leading-snug font-semibold">
-                  Yandy Rodríguez Cueto, Dr.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div className="mt-[3.5cqw] flex flex-col gap-[0.5cqw] border-t border-foreground/15 pt-[2.6cqw]">
+          <span className="text-[1.1cqw] font-semibold tracking-[0.22em] text-muted-foreground uppercase">
+            Autor
+          </span>
+          <span className="text-[1.9cqw] font-semibold">Yandy Rodríguez Cueto, Dr.</span>
         </div>
       </div>
     </figure>
