@@ -73,7 +73,7 @@ export function EbookCoverC({ priority = false, className = '' }: EbookCoverCPro
           />
         </div>
 
-        <div className="mt-[3.5cqw] flex flex-col gap-[0.5cqw] border-t border-foreground/15 pt-[2.6cqw]">
+        <div className="mt-[3.5cqw] flex flex-col items-end gap-[0.5cqw] border-t border-foreground/15 pt-[2.6cqw] text-right">
           <span className="text-[1.1cqw] font-semibold tracking-[0.22em] text-muted-foreground uppercase">
             Autor
           </span>
