@@ -27,15 +27,11 @@ export function EbookCoverLargeV2() {
           />
 
           <div className="mt-6 flex flex-col gap-3 sm:mt-10 sm:gap-5">
-            <div className="flex flex-col gap-1 sm:gap-1.5">
-              <p className="flex items-center gap-3 text-[0.65rem] font-bold tracking-[0.2em] uppercase sm:text-xs sm:tracking-[0.24em]">
-                <span aria-hidden="true" className="h-px w-6 shrink-0 bg-primary-foreground sm:w-8" />
-                Curso 1
-              </p>
-              <p className="text-[0.7rem] leading-snug font-medium tracking-[0.08em] uppercase text-pretty sm:text-sm sm:tracking-[0.1em]">
-                Análisis transversal de los componentes del riesgo
-              </p>
-            </div>
+            <p className="flex flex-wrap items-center gap-x-2 text-[0.65rem] leading-snug font-medium tracking-[0.08em] uppercase sm:text-[0.8rem] sm:tracking-[0.1em] lg:flex-nowrap lg:whitespace-nowrap">
+              <span className="font-bold">Curso 1</span>
+              <span aria-hidden="true">·</span>
+              <span>Análisis transversal de los componentes del riesgo</span>
+            </p>
 
             <h2 className="font-serif text-[1.65rem] leading-[1.08] font-medium text-balance text-foreground sm:text-4xl lg:text-[2.9rem]">
               Introducción a la{' '}

@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { EbookCoverLarge } from './ebook-cover-large'
 import { EbookCoverLargeV2 } from './ebook-cover-large-v2'
 
@@ -22,6 +23,12 @@ export function CoverShowcase() {
           Versión B
         </p>
         <EbookCoverLargeV2 />
+        <Link
+          href="/portada-a4"
+          className="text-sm font-bold tracking-[0.08em] text-primary uppercase underline-offset-4 hover:underline focus-visible:underline focus-visible:outline-none"
+        >
+          Ver versión A4 para imprimir
+        </Link>
       </section>
     </>
   )
