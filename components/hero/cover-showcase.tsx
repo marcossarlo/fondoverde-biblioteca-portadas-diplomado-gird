@@ -1,12 +1,28 @@
 import { EbookCoverLarge } from './ebook-cover-large'
+import { EbookCoverLargeV2 } from './ebook-cover-large-v2'
 
 export function CoverShowcase() {
   return (
-    <section
-      aria-label="Portada del documento"
-      className="flex min-h-screen items-center justify-center bg-background px-6 py-20 md:px-10"
-    >
-      <EbookCoverLarge />
-    </section>
+    <>
+      <section
+        aria-label="Portada del documento, versión A"
+        className="flex min-h-screen flex-col items-center justify-center gap-10 bg-background px-6 py-20 md:px-10"
+      >
+        <p className="text-xs font-bold tracking-[0.24em] text-muted-foreground uppercase">
+          Versión A
+        </p>
+        <EbookCoverLarge />
+      </section>
+
+      <section
+        aria-label="Portada del documento, versión B"
+        className="flex min-h-screen flex-col items-center justify-center gap-10 bg-background px-6 py-20 md:px-10"
+      >
+        <p className="text-xs font-bold tracking-[0.24em] text-muted-foreground uppercase">
+          Versión B
+        </p>
+        <EbookCoverLargeV2 />
+      </section>
+    </>
   )
 }
