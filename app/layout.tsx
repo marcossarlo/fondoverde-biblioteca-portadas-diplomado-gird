@@ -1,10 +1,19 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
+import { Manrope, Newsreader } from 'next/font/google'
 import './globals.css'
 
+const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' })
+const newsreader = Newsreader({
+  subsets: ['latin'],
+  variable: '--font-newsreader',
+  style: ['normal', 'italic'],
+})
+
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Módulo 1: Introducción a la Gestión Integral del Riesgo de Desastres | Fondo Verde',
+  description:
+    'eBook del Módulo 1 del Curso 1: Análisis transversal de los componentes del riesgo. Autor: Yandy Rodríguez Cueto, Dr.',
   generator: 'v0.app',
   icons: {
     icon: [
@@ -26,11 +35,8 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
+  colorScheme: 'dark',
+  themeColor: '#06232b',
 }
 
 export default function RootLayout({
@@ -39,8 +45,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body className="antialiased">
+    <html lang="es" className={`${manrope.variable} ${newsreader.variable} bg-background`}>
+      <body className="font-sans antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
