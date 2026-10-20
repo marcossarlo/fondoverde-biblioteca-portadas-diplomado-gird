@@ -43,24 +43,24 @@ export function EbookCoverC({ priority = false, className = '' }: EbookCoverCPro
         />
 
         <div className="mt-[6cqw] flex flex-col gap-[2.6cqw]">
-          <p className="flex items-center gap-[1.4cqw] text-[1.45cqw] leading-none font-medium tracking-[0.14em] whitespace-nowrap text-accent uppercase">
-            <span aria-hidden="true" className="h-px w-[5cqw] shrink-0 bg-primary" />
+          <p className="flex items-center justify-end gap-[1.4cqw] text-[1.45cqw] leading-none font-medium tracking-[0.14em] whitespace-nowrap text-accent uppercase">
             <span className="font-bold">Curso 1</span>
             <span aria-hidden="true">·</span>
             <span>Análisis transversal de los componentes del riesgo</span>
+            <span aria-hidden="true" className="h-px w-[5cqw] shrink-0 bg-primary" />
           </p>
 
-          <h2 className="font-serif text-[6.1cqw] leading-[1.08] font-medium text-balance text-foreground">
-            Introducción a la{' '}
-            <em className="text-primary italic">Gestión Integral del Riesgo de Desastres</em>{' '}
-            y conceptos clave
-          </h2>
-        </div>
-
-        <div className="mt-[3.5cqw] flex justify-end">
-          <span className="inline-flex items-center rounded-full bg-primary px-[3cqw] py-[1cqw] text-[1.9cqw] font-bold tracking-[0.14em] whitespace-nowrap text-primary-foreground uppercase">
-            Módulo 1
-          </span>
+          <div className="flex items-stretch gap-[2.6cqw]">
+            <span className="shrink-0 rotate-180 text-[2.2cqw] leading-none font-bold tracking-[0.18em] whitespace-nowrap text-primary uppercase [writing-mode:vertical-rl]">
+              Módulo 1
+            </span>
+            <span aria-hidden="true" className="w-[0.28cqw] shrink-0 bg-primary" />
+            <h2 className="font-serif text-[6.1cqw] leading-[1.08] font-medium text-balance text-foreground">
+              Introducción a la{' '}
+              <em className="text-primary italic">Gestión Integral del Riesgo de Desastres</em>{' '}
+              y conceptos clave
+            </h2>
+          </div>
         </div>
 
         <div className="relative mt-[3.5cqw] min-h-0 flex-1 overflow-hidden rounded-[1.4cqw] shadow-[0_3cqw_6cqw_-2cqw_rgba(0,0,0,0.7)] ring-1 ring-foreground/10">
