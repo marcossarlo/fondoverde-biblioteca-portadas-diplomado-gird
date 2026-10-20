@@ -37,7 +37,7 @@ export function EbookCoverLight({
         fill
         priority={priority}
         sizes="(min-width: 1024px) 50rem, 100vw"
-        className="-z-20 object-cover object-[60%_50%] opacity-50"
+        className="-z-20 object-cover object-[60%_50%] opacity-[0.09]"
       />
       <div
         aria-hidden="true"

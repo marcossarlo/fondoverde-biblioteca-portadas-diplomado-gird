@@ -19,8 +19,8 @@ export function EbookCoverC2Modulo1({ priority = false, className = '' }: EbookC
           <em className="text-primary italic">Gestión Integral del Riesgo de Desastres</em>
         </>
       }
-      imageSrc="/images/caracteristicas-socioeconomicas-claro.png"
-      imageAlt="Ilustración clara de un valle con río, campos en terrazas y comunidades conectadas por caminos, que representa el territorio y las condiciones socioeconómicas de la población"
+      imageSrc="/images/caracteristicas-socioeconomicas.png"
+      imageAlt="Ilustración de un valle con río: un asentamiento denso en laderas y ribera, un centro urbano con comercio e industria y zonas rurales dispersas, que representa las condiciones socioeconómicas del territorio"
       priority={priority}
       className={className}
     />
