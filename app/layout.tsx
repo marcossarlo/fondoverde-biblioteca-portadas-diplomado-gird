@@ -11,9 +11,9 @@ const newsreader = Newsreader({
 })
 
 export const metadata: Metadata = {
-  title: 'Módulo 1: Introducción a la Gestión Integral del Riesgo de Desastres | Fondo Verde',
+  title: 'Diplomado en Gestión Integral del Riesgo de Desastres | Fondo Verde',
   description:
-    'eBook del Módulo 1 del Curso 1: Análisis transversal de los componentes del riesgo. Autor: Yandy Rodríguez Cueto, Dr.',
+    'Biblioteca de portadas del Diplomado en Gestión Integral del Riesgo de Desastres, elaborado por Yandy Rodríguez Cueto, Dr. Incluye tres cursos: análisis transversal de los componentes del riesgo; construcción social y causas subyacentes del riesgo de desastres; y acciones operativas de prevención, mitigación y adaptación.',
   generator: 'v0.app',
   icons: {
     icon: [
