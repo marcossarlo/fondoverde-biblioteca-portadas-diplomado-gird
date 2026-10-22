@@ -12,7 +12,7 @@ export function DiplomadoHero() {
   return (
     <section className="relative isolate flex min-h-screen flex-col overflow-hidden bg-background">
       <Image
-        src="/images/territorio-cuenca.png"
+        src="/images/territorio-cuenca.webp"
         alt=""
         fill
         priority
