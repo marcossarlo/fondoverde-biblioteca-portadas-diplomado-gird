@@ -19,7 +19,7 @@ export function EbookCoverC2Modulo4({ priority = false, className = '' }: EbookC
           <em className="text-primary italic">Gestión Integral del Riesgo de Desastres</em>
         </>
       }
-      imageSrc="/images/politicas-publicas-incidencia.png"
+      imageSrc="/images/politicas-publicas-incidencia.webp"
       imageAlt="Vista aérea de un territorio con valle y río, con un edificio institucional en el centro del que parten líneas hacia comunidades y capas de documentos, que representa las políticas públicas y la incidencia"
       priority={priority}
       className={className}

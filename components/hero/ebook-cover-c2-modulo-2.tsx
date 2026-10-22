@@ -19,7 +19,7 @@ export function EbookCoverC2Modulo2({ priority = false, className = '' }: EbookC
           <em className="text-primary italic">Gestión Integral del Riesgo de Desastres</em>
         </>
       }
-      imageSrc="/images/capacidades-locales.png"
+      imageSrc="/images/capacidades-locales.webp"
       imageAlt="Ilustración de una comunidad en un valle de montaña: plaza comunal con vecinos reunidos, torre de alerta temprana, ruta de evacuación hacia un refugio y huertos en terrazas, conectados por una red de caminos que representa las capacidades locales"
       priority={priority}
       className={className}

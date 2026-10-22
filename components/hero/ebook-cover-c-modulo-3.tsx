@@ -12,7 +12,7 @@ export function EbookCoverCModulo3({ priority = false, className = '' }: EbookCo
       className={`a4-sheet relative isolate flex aspect-[210/297] flex-col overflow-hidden bg-background [container-type:inline-size] ${className}`}
     >
       <Image
-        src="/images/marcos-internacionales.png"
+        src="/images/marcos-internacionales.webp"
         alt=""
         fill
         priority={priority}
@@ -64,7 +64,7 @@ export function EbookCoverCModulo3({ priority = false, className = '' }: EbookCo
 
         <div className="relative mt-[3.5cqw] min-h-0 flex-1 overflow-hidden rounded-[1.4cqw] shadow-[0_3cqw_6cqw_-2cqw_rgba(0,0,0,0.7)] ring-1 ring-foreground/10">
           <Image
-            src="/images/marcos-internacionales.png"
+            src="/images/marcos-internacionales.webp"
             alt="Ilustración de un territorio de montañas y río conectado por una red luminosa de líneas y nodos que representa la cooperación internacional"
             fill
             sizes="(min-width: 1024px) 44rem, 100vw"

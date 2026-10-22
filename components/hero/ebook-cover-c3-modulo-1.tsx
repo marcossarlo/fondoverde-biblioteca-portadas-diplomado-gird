@@ -12,7 +12,7 @@ export function EbookCoverC3Modulo1({ priority = false, className = '' }: EbookC
       className={`a4-sheet relative isolate flex aspect-[210/297] flex-col overflow-hidden bg-background [container-type:inline-size] ${className}`}
     >
       <Image
-        src="/images/prevencion-ordenamiento-territorial.png"
+        src="/images/prevencion-ordenamiento-territorial.webp"
         alt=""
         fill
         priority={priority}
@@ -64,7 +64,7 @@ export function EbookCoverC3Modulo1({ priority = false, className = '' }: EbookC
 
         <div className="relative mt-[3.5cqw] min-h-0 flex-1 overflow-hidden rounded-[1.4cqw] shadow-[0_3cqw_6cqw_-2cqw_rgba(0,0,0,0.7)] ring-1 ring-foreground/10">
           <Image
-            src="/images/prevencion-ordenamiento-territorial.png"
+            src="/images/prevencion-ordenamiento-territorial.webp"
             alt="Ilustración de un valle con un río luminoso, una zona habitada delimitada sobre terreno alto y una franja de no construcción discontinua a lo largo de la ribera"
             fill
             sizes="(min-width: 1024px) 44rem, 100vw"

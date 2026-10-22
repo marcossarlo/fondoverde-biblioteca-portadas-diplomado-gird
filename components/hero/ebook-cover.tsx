@@ -40,7 +40,7 @@ export function EbookCover() {
 
           <div className="relative mt-6 min-h-0 flex-1 overflow-hidden rounded-md">
             <Image
-              src="/images/territorio-cuenca.png"
+              src="/images/territorio-cuenca.webp"
               alt="Ilustración de una cuenca con río, montañas y comunidades rurales"
               fill
               sizes="(min-width: 768px) 26rem, 22rem"
