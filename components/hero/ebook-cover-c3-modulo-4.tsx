@@ -12,7 +12,7 @@ export function EbookCoverC3Modulo4({ priority = false, className = '' }: EbookC
       className={`a4-sheet relative isolate flex aspect-[210/297] flex-col overflow-hidden bg-background [container-type:inline-size] ${className}`}
     >
       <Image
-        src="/images/adaptacion-climatica-natura.png"
+        src="/images/adaptacion-climatica-natura.webp"
         alt=""
         fill
         priority={priority}
@@ -64,7 +64,7 @@ export function EbookCoverC3Modulo4({ priority = false, className = '' }: EbookC
 
         <div className="relative mt-[3.5cqw] min-h-0 flex-1 overflow-hidden rounded-[1.4cqw] shadow-[0_3cqw_6cqw_-2cqw_rgba(0,0,0,0.7)] ring-1 ring-foreground/10">
           <Image
-            src="/images/adaptacion-climatica-natura.png"
+            src="/images/adaptacion-climatica-natura.webp"
             alt="Ilustración de un valle con un río luminoso bordeado de vegetación de ribera, humedales con canales secundarios y laderas reforestadas en terrazas"
             fill
             sizes="(min-width: 1024px) 44rem, 100vw"

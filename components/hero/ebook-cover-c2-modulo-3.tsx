@@ -19,7 +19,7 @@ export function EbookCoverC2Modulo3({ priority = false, className = '' }: EbookC
           <em className="text-primary italic">gobernanza del riesgo</em>
         </>
       }
-      imageSrc="/images/instrumentos-gestion-territorial.png"
+      imageSrc="/images/instrumentos-gestion-territorial.webp"
       imageAlt="Vista aérea de un territorio con valle, río y poblado, cubierto por un mapa de zonificación con límites, corredor de riesgo de inundación, parcelas y brújula, que representa los instrumentos de gestión territorial"
       priority={priority}
       className={className}
